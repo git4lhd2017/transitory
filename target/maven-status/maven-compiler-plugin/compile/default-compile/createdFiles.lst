@@ -1,1 +1,2 @@
-com\transitory\pojo\User.class
+com\transitory\reception\beans\User.class
+com\transitory\manager\beans\User.class

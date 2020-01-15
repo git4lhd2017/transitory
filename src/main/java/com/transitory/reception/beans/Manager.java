@@ -1,27 +1,18 @@
 package com.transitory.reception.beans;
 
-public class User {
+public class Manager {
 
-    private Long id;
     private String username;
     private String password;
 
-    public User(Long id, String username, String password) {
-        this.id = id;
+    public Manager(String username, String password) {
         this.username = username;
         this.password = password;
     }
 
-    public User() {
+    public Manager() {
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getUsername() {
         return username;

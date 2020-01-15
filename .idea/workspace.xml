@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dd535cf-aff9-41ca-aeb6-dfb1499d59bf" name="Default Changelist" comment="" />
+    <list default="true" id="4dd535cf-aff9-41ca-aeb6-dfb1499d59bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/transitory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +36,11 @@
         <option name="userSettingsFile" value="F:\Idea\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -41,8 +54,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\dev\transitory\src\main" />
+      <recent name="F:\dev\transitory\src\main\resources" />
+      <recent name="F:\dev\transitory\src\main\webapp" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -66,21 +92,81 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579005941735</updated>
+      <workItem from="1579066779564" duration="1135000" />
     </task>
+    <task id="LOCAL-00001" summary="新建了user类，还不完全">
+      <created>1579006917380</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579006917380</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新建了user类，还不完全" />
+    <option name="LAST_COMMIT_MESSAGE" value="新建了user类，还不完全" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="24" key="#Project_Structure" timestamp="1579010069481">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1579010069481" />
     <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser" timestamp="1579006792270">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579006792270" />
-    <state x="463" y="107" key="FileChooserDialogImpl" timestamp="1579006043034">
+    <state x="657" y="278" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1579068409596">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579006043034" />
+    <state x="657" y="278" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1366.728@0.0.1366.728" timestamp="1579068409596" />
+    <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1579068493479">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="334" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579068493479" />
+    <state x="367" y="95" key="FileChooserDialogImpl" timestamp="1579062568508">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="367" y="95" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579062568508" />
     <state x="546" y="258" key="Github.ShareDialog" timestamp="1579006134312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="546" y="258" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1579006134312" />
+    <state width="1321" height="199" key="GridCell.Tab.0.bottom" timestamp="1579011334709">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579011334709" />
+    <state width="1321" height="199" key="GridCell.Tab.0.center" timestamp="1579011334709">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="199" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579011334709" />
+    <state width="1321" height="199" key="GridCell.Tab.0.left" timestamp="1579011334708">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="199" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579011334708" />
+    <state width="1321" height="199" key="GridCell.Tab.0.right" timestamp="1579011334709">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="199" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579011334709" />
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1579009500504">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1579009500504" />
+    <state x="310" y="0" key="SettingsEditor" timestamp="1579068413451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="310" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579068413451" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1579006979769">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579006979769" />
+    <state x="510" y="55" key="spring file set editor" timestamp="1579067976738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="510" y="55" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1579067976738" />
   </component>
 </project>

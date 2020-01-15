@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dd535cf-aff9-41ca-aeb6-dfb1499d59bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/transitory/reception/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/transitory/reception/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/transitory/reception/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/transitory/reception/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/transitory/reception/dao/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/transitory/reception/beans/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/transitory/reception/beans/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/transitory/reception/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/transitory/reception/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/transitory/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springMVC.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
@@ -146,7 +140,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:阿里RDS" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@27efba7a" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@143dedb2" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -167,7 +161,9 @@
       <updated>1579005941735</updated>
       <workItem from="1579066779564" duration="6555000" />
       <workItem from="1579079894410" duration="2891000" />
-      <workItem from="1579097275577" duration="7648000" />
+      <workItem from="1579097275577" duration="7710000" />
+      <workItem from="1579105346164" duration="170000" />
+      <workItem from="1579105548062" duration="2381000" />
     </task>
     <task id="LOCAL-00001" summary="新建了user类，还不完全">
       <created>1579006917380</created>
@@ -211,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579103104600</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="springMVC的配置">
+      <created>1579105284086</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579105284086</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,34 +255,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579073766719" />
-    <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1579103102970">
+    <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1579105282348">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="334" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579103102970" />
-    <state x="367" y="95" key="FileChooserDialogImpl" timestamp="1579097324278">
+    <state x="334" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579105282348" />
+    <state x="367" y="95" key="FileChooserDialogImpl" timestamp="1579105446624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="367" y="95" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579097324278" />
+    <state x="367" y="95" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579105446624" />
     <state x="546" y="258" key="Github.ShareDialog" timestamp="1579006134312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="546" y="258" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1579006134312" />
-    <state width="1321" height="199" key="GridCell.Tab.0.bottom" timestamp="1579011334709">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1579107309572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1321" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579011334709" />
-    <state width="1321" height="199" key="GridCell.Tab.0.center" timestamp="1579011334709">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579107309572" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1579107309572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1321" height="199" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579011334709" />
-    <state width="1321" height="199" key="GridCell.Tab.0.left" timestamp="1579011334708">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579107309572" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1579107309571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1321" height="199" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579011334708" />
-    <state width="1321" height="199" key="GridCell.Tab.0.right" timestamp="1579011334709">
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579107309571" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1579107309572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1321" height="199" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579011334709" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579107309572" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1579104713970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -288,14 +291,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="21" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1579101021112" />
-    <state x="310" y="0" key="SettingsEditor" timestamp="1579105257044">
+    <state x="310" y="0" key="SettingsEditor" timestamp="1579106037055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="310" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579105257044" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1579103125378">
+    <state x="310" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579106037055" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1579105289867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579103125378" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579105289867" />
     <state x="477" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579068539759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

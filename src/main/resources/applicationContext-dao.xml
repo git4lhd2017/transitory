@@ -44,6 +44,5 @@
         <property name="basePackage" value="com.transitory.reception.mapper"/>
     </bean>
 
-    <mvc:component-scan base-package="com.transitory.reception.dao"/>
 
 </beans>

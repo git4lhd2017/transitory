@@ -1,2 +1,6 @@
-com\transitory\reception\beans\User.class
+com\transitory\reception\service\impl\UserServiceImpl.class
 com\transitory\manager\beans\User.class
+com\transitory\reception\dao\UserMapper.class
+com\transitory\reception\controller\UserController.class
+com\transitory\reception\service\UserService.class
+com\transitory\reception\beans\Manager.class

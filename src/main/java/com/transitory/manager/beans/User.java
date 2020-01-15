@@ -1,4 +1,4 @@
-package com.transitory.beans;
+package com.transitory.manager.beans;
 
 public class User {
 

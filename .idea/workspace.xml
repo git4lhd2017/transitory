@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dd535cf-aff9-41ca-aeb6-dfb1499d59bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-tx.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -67,13 +72,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\dev\transitory\src\main\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\dev\transitory\src\main\webapp\WEB-INF" />
       <recent name="F:\dev\transitory\src\main" />
       <recent name="F:\dev\transitory\src\main\resources" />
       <recent name="F:\dev\transitory\src\main\webapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\dev\transitory\src\main\resources" />
+      <recent name="F:\dev\transitory\.idea\WEB-INF" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -98,7 +105,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579005941735</updated>
-      <workItem from="1579066779564" duration="3060000" />
+      <workItem from="1579066779564" duration="6555000" />
+      <workItem from="1579079894410" duration="1152000" />
     </task>
     <task id="LOCAL-00001" summary="新建了user类，还不完全">
       <created>1579006917380</created>
@@ -114,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579068528492</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新建了user类，还不完全">
+      <created>1579072044467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579072044467</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,18 +152,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579006792270" />
-    <state x="657" y="278" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1579068409596">
+    <state x="657" y="278" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1579073820003">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="657" y="278" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1366.728@0.0.1366.728" timestamp="1579068409596" />
-    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579071840860">
+    <state x="657" y="278" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1366.728@0.0.1366.728" timestamp="1579073820003" />
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579073766719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579071840860" />
-    <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1579068526791">
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579073766719" />
+    <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1579072043425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="334" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579068526791" />
+    <state x="334" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579072043425" />
     <state x="367" y="95" key="FileChooserDialogImpl" timestamp="1579068707978">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -173,18 +188,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1321" height="199" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579011334709" />
-    <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1579071953285">
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1579074193537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="21" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1579071953285" />
-    <state x="310" y="0" key="SettingsEditor" timestamp="1579068413451">
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1579074193537" />
+    <state x="310" y="0" key="SettingsEditor" timestamp="1579073824025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="310" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579068413451" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1579068568522">
+    <state x="310" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579073824025" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1579072051372">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579068568522" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579072051372" />
     <state x="477" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579068539759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

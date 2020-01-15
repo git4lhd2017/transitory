@@ -1,4 +1,4 @@
-package com.transitory.pojo;
+package com.transitory.beans;
 
 public class User {
 

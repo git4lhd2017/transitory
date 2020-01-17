@@ -10,10 +10,10 @@
 
     <!--  创建连接bean  -->
     <bean class="com.alibaba.druid.pool.DruidDataSource" id="dataSource">
-        <property name="driverClassName" value="${jdbc.driverClass}"/>
-        <property name="url" value="${jdbc.url}"/>
-        <property name="username" value="${jdbc.username}"/>
-        <property name="password" value="${jdbc.password}"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://rm-wz99e7jlv867r1t0jqo.mysql.rds.aliyuncs.com:3306/transitory"/>
+        <property name="username" value="lhd"/>
+        <property name="password" value="LHDhuide0510"/>
         <property name="maxActive" value="1000"/>
         <property name="minIdle" value="5"/>
         <property name="initialSize" value="50"/>

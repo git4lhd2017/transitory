@@ -1,1 +1,6 @@
-F:\dev\transitory\src\main\java\com\transitory\pojo\User.java
+F:\dev\transitory\src\main\java\com\transitory\reception\service\UserService.java
+F:\dev\transitory\src\main\java\com\transitory\reception\service\impl\UserServiceImpl.java
+F:\dev\transitory\src\main\java\com\transitory\manager\beans\User.java
+F:\dev\transitory\src\main\java\com\transitory\reception\dao\UserMapper.java
+F:\dev\transitory\src\main\java\com\transitory\reception\beans\Manager.java
+F:\dev\transitory\src\main\java\com\transitory\reception\controller\UserController.java

@@ -4,6 +4,7 @@ import com.transitory.reception.beans.Manager;
 
 import java.util.List;
 
+
 public interface UserMapper {
 
     List<Manager> findAll();
